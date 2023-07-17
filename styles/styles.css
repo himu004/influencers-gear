@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section Styles*/
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: #E02C6D;
+    font-family: Poppins;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 20px 30px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.5s;
+}
+
+.menu ul li i {
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+}
+
+.menu ul li:hover {
+    background-color: #E02C6D;
+    color: #FFF;
+}
+
+/* Main Hero Section Styles */
+
+.hero-section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.hero-content {
+    margin: 50px;
+}
+
+.hero-banner {
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 50px;
+}
+
+/* .hero-banner img {
+    width: 50%;
+} */
+
+.start-journey-tex {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.hero-description {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.prebook-btn {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 30px;
+    border: 0;
+    color: aliceblue;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.prebook-btn i {
+    margin-left: 10px;
+}
