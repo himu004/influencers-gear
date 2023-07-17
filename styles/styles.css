@@ -16,6 +16,8 @@
     font-family: Poppins;
     font-size: 2em;
     font-weight: 700;
+    border-left: 4px solid #03de1c;
+    padding: 0px 10px;
 }
 
 .menu ul {
