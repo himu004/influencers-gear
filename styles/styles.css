@@ -101,3 +101,14 @@
 .prebook-btn i {
     margin-left: 10px;
 }
+
+/* Sponsor Section Styles */
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    margin: 30px 100px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
